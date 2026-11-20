@@ -1,2 +1,5 @@
 ROLES = ('admin', 'operator', 'viewer')
 DRILL_STATUSES = ('queued', 'running', 'completed', 'failed')
+QUOTE_COLUMN_STATUSES = ('active', 'retired')
+QUOTE_CURSOR_STATUSES = ('open', 'closed', 'expired')
+FAILOVER_DECISIONS = ('approved', 'blocked', 'deferred')

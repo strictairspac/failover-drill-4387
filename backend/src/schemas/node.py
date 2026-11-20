@@ -8,3 +8,4 @@ class NodeInput(BaseModel):
     available: bool = True
     fenced: bool = False
     vote_enabled: bool = True
+    has_legacy: bool = True
